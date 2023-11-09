@@ -1,0 +1,224 @@
+{
+  "category": [
+    {
+      "name": "Phone",
+      "brand": [
+        {
+          "name": "Apple",
+          "products": [
+            {
+              "name": "iPhone 14",
+              "sales": [
+                { "month": "Janeiro", "quantity": 100 },
+                { "month": "Fevereiro", "quantity": 150 },
+                { "month": "Março", "quantity": 200 },
+                { "month": "Abril", "quantity": 120 },
+                { "month": "Maio", "quantity": 180 }
+              ]
+            },
+            {
+              "name": "iPhone 15",
+              "sales": [
+                { "month": "Janeiro", "quantity": 120 },
+                { "month": "Fevereiro", "quantity": 160 },
+                { "month": "Março", "quantity": 220 },
+                { "month": "Abril", "quantity": 180 },
+                { "month": "Maio", "quantity": 150 }
+              ]
+            },
+            {
+              "name": "iPhone SE",
+              "sales": [
+                { "month": "Janeiro", "quantity": 70 },
+                { "month": "Fevereiro", "quantity": 50 },
+                { "month": "Março", "quantity": 100 },
+                { "month": "Abril", "quantity": 120 },
+                { "month": "Maio", "quantity": 80 }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Samsung",
+          "products": [
+            {
+              "name": "A14",
+              "sales": [
+                { "month": "Janeiro", "quantity": 50 },
+                { "month": "Fevereiro", "quantity": 70 },
+                { "month": "Março", "quantity": 60 },
+                { "month": "Abril", "quantity": 80 },
+                { "month": "Maio", "quantity": 90 }
+              ]
+            },
+            {
+              "name": "S23",
+              "sales": [
+                { "month": "Janeiro", "quantity": 30 },
+                { "month": "Fevereiro", "quantity": 50 },
+                { "month": "Março", "quantity": 20 },
+                { "month": "Abril", "quantity": 100 },
+                { "month": "Maio", "quantity": 50 }
+              ]
+            },
+            {
+              "name": "Z Flip 5",
+              "sales": [
+                { "month": "Janeiro", "quantity": 100 },
+                { "month": "Fevereiro", "quantity": 170 },
+                { "month": "Março", "quantity": 160 },
+                { "month": "Abril", "quantity": 180 },
+                { "month": "Maio", "quantity": 90 }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Xiaomi",
+          "products": [
+            {
+              "name": "Xiaomi 12",
+              "sales": [
+                { "month": "Janeiro", "quantity": 150 },
+                { "month": "Fevereiro", "quantity": 160 },
+                { "month": "Março", "quantity": 140 },
+                { "month": "Abril", "quantity": 180 },
+                { "month": "Maio", "quantity": 200 }
+              ]
+            },
+            {
+              "name": "Redmi Note 12",
+              "sales": [
+                { "month": "Janeiro", "quantity": 160 },
+                { "month": "Fevereiro", "quantity": 180 },
+                { "month": "Março", "quantity": 150 },
+                { "month": "Abril", "quantity": 280 },
+                { "month": "Maio", "quantity": 210 }
+              ]
+            },
+            {
+              "name": "POCO M4 Pro",
+              "sales": [
+                { "month": "Janeiro", "quantity": 45 },
+                { "month": "Fevereiro", "quantity": 60 },
+                { "month": "Março", "quantity": 110 },
+                { "month": "Abril", "quantity": 160 },
+                { "month": "Maio", "quantity": 120 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Headphones",
+      "brand": [
+        {
+          "name": "Sony",
+          "products": [
+            {
+              "name": "Sony WH-1000XM4",
+              "sales": [
+                { "month": "Janeiro", "quantity": 80 },
+                { "month": "Fevereiro", "quantity": 100 },
+                { "month": "Março", "quantity": 120 },
+                { "month": "Abril", "quantity": 90 },
+                { "month": "Maio", "quantity": 110 }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bose",
+          "products": [
+            {
+              "name": "Bose QuietComfort 35 II",
+              "sales": [
+                { "month": "Janeiro", "quantity": 60 },
+                { "month": "Fevereiro", "quantity": 80 },
+                { "month": "Março", "quantity": 70 },
+                { "month": "Abril", "quantity": 100 },
+                { "month": "Maio", "quantity": 120 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Notebooks",
+      "brand": [
+        {
+          "name": "Dell",
+          "products": [
+            {
+              "name": "Dell XPS 13",
+              "sales": [
+                { "month": "Janeiro", "quantity": 50 },
+                { "month": "Fevereiro", "quantity": 60 },
+                { "month": "Março", "quantity": 70 },
+                { "month": "Abril", "quantity": 80 },
+                { "month": "Maio", "quantity": 90 }
+              ]
+            },
+            {
+              "name": "Dell Inspiron 15",
+              "sales": [
+                { "month": "Janeiro", "quantity": 30 },
+                { "month": "Fevereiro", "quantity": 40 },
+                { "month": "Março", "quantity": 50 },
+                { "month": "Abril", "quantity": 60 },
+                { "month": "Maio", "quantity": 70 }
+              ]
+            },
+            {
+              "name": "Dell Latitude 14",
+              "sales": [
+                { "month": "Janeiro", "quantity": 20 },
+                { "month": "Fevereiro", "quantity": 25 },
+                { "month": "Março", "quantity": 30 },
+                { "month": "Abril", "quantity": 35 },
+                { "month": "Maio", "quantity": 40 }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HP",
+          "products": [
+            {
+              "name": "HP Spectre x360",
+              "sales": [
+                { "month": "Janeiro", "quantity": 40 },
+                { "month": "Fevereiro", "quantity": 50 },
+                { "month": "Março", "quantity": 60 },
+                { "month": "Abril", "quantity": 70 },
+                { "month": "Maio", "quantity": 80 }
+              ]
+            },
+            {
+              "name": "HP Envy 13",
+              "sales": [
+                { "month": "Janeiro", "quantity": 25 },
+                { "month": "Fevereiro", "quantity": 30 },
+                { "month": "Março", "quantity": 35 },
+                { "month": "Abril", "quantity": 40 },
+                { "month": "Maio", "quantity": 45 }
+              ]
+            },
+            {
+              "name": "HP Pavilion 15",
+              "sales": [
+                { "month": "Janeiro", "quantity": 35 },
+                { "month": "Fevereiro", "quantity": 40 },
+                { "month": "Março", "quantity": 45 },
+                { "month": "Abril", "quantity": 50 },
+                { "month": "Maio", "quantity": 55 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
