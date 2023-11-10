@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import { ContainerSelect, Label } from "./styles";
 
 /* eslint-disable react/prop-types */
 export default function Categories({
@@ -19,13 +19,3 @@ export default function Categories({
     </ContainerSelect>
   );
 }
-
-const ContainerSelect = styled.div`
-  display: flex;
-  gap: 10px;
-  align-items: center;
-`;
-
-const Label = styled.label`
-  font-family: "Roboto", sans-serif;
-`;
