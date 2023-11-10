@@ -12,7 +12,7 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
   background-color: #69a3e6;
-  padding: 5px 20px;
+  padding: 10px 20px;
   margin-bottom: 15px;
   gap: 30px;
   color: #fff;
@@ -37,6 +37,6 @@ export const LeftSide = styled.div`
 export const Title = styled.h1`
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 26px;
   cursor: pointer;
 `;
