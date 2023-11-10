@@ -1,4 +1,5 @@
 # Sales Report
+![Sales Report deploy screenshot](https://github.com/gessicacss/sales-report/assets/111399040/9b17144f-41c2-4cb0-8ac2-fedcbab31d0e)
 
 This is a front-end project created as a technical test for the position of junior full stack developer at AllTax. The test involves a monthly sales report page for a brand in a specific category. The page is responsive and offers a high-quality experience for visitors. The project was developed in English to maintain a standard.
 
