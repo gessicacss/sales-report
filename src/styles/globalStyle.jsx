@@ -2,13 +2,13 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     * {
-        font-family: 'Raleway';
+        font-family: 'Roboto', sans-serif;;
         font-style: normal;
         font-weight: 400;
         box-sizing: border-box;
     }
     body {
-        background-color: #e6e6e6;
+        background-color: #fdfdfd;
     }
     h1 {
         font-weight: 700;

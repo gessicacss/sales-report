@@ -1,20 +1,18 @@
+/* eslint-disable react/prop-types */
 import styled from "styled-components";
 import data from "../utils/data.json";
-import { useState } from "react";
 import Products from "./menusOptions/Products";
 import Categories from "./menusOptions/Categories";
 import Brands from "./menusOptions/Brands";
 
-export default function Menu() {
-  const [selectedCategory, setSelectedCategory] = useState(
-    data.category[0].name
-  );
-  const [selectedProduct, setSelectedProduct] = useState(
-    data.category[0].brand[0].products[0].name
-  );
-  const [selectedBrand, setSelectedBrand] = useState(
-    data.category[0].brand[0].name
-  );
+export default function Menu({
+  selectedCategory,
+  setSelectedCategory,
+  selectedProduct,
+  setSelectedProduct,
+  selectedBrand,
+  setSelectedBrand
+}) {
 
   const handleCategoryChange = (event) => {
     const value = event.target.value;
@@ -68,7 +66,7 @@ const MenuContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  @media (max-width: 350px) {
+  @media (max-width: 530px) {
     flex-direction: column;
     gap: 20px;
   }

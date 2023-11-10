@@ -7,105 +7,63 @@
           "name": "Apple",
           "products": [
             {
-              "name": "iPhone 14",
-              "sales": [
-                { "month": "Janeiro", "quantity": 100 },
-                { "month": "Fevereiro", "quantity": 150 },
-                { "month": "Março", "quantity": 200 },
-                { "month": "Abril", "quantity": 120 },
-                { "month": "Maio", "quantity": 180 }
-              ]
+              "name": "iPhone 14"
             },
             {
-              "name": "iPhone 15",
-              "sales": [
-                { "month": "Janeiro", "quantity": 120 },
-                { "month": "Fevereiro", "quantity": 160 },
-                { "month": "Março", "quantity": 220 },
-                { "month": "Abril", "quantity": 180 },
-                { "month": "Maio", "quantity": 150 }
-              ]
+              "name": "iPhone 15"
             },
             {
-              "name": "iPhone SE",
-              "sales": [
-                { "month": "Janeiro", "quantity": 70 },
-                { "month": "Fevereiro", "quantity": 50 },
-                { "month": "Março", "quantity": 100 },
-                { "month": "Abril", "quantity": 120 },
-                { "month": "Maio", "quantity": 80 }
-              ]
+              "name": "iPhone SE"
             }
+          ],
+          "Sales": [
+            { "month": "Janeiro", "Sales": 100 },
+            { "month": "Fevereiro", "Sales": 150 },
+            { "month": "Março", "Sales": 200 },
+            { "month": "Abril", "Sales": 120 },
+            { "month": "Maio", "Sales": 180 }
           ]
         },
         {
           "name": "Samsung",
           "products": [
             {
-              "name": "Galaxy A14",
-              "sales": [
-                { "month": "Janeiro", "quantity": 50 },
-                { "month": "Fevereiro", "quantity": 70 },
-                { "month": "Março", "quantity": 60 },
-                { "month": "Abril", "quantity": 80 },
-                { "month": "Maio", "quantity": 90 }
-              ]
+              "name": "Galaxy A14"
             },
             {
-              "name": "Galaxy S23",
-              "sales": [
-                { "month": "Janeiro", "quantity": 30 },
-                { "month": "Fevereiro", "quantity": 50 },
-                { "month": "Março", "quantity": 20 },
-                { "month": "Abril", "quantity": 100 },
-                { "month": "Maio", "quantity": 50 }
-              ]
+              "name": "Galaxy S23"
             },
             {
-              "name": "Z Flip 5",
-              "sales": [
-                { "month": "Janeiro", "quantity": 100 },
-                { "month": "Fevereiro", "quantity": 170 },
-                { "month": "Março", "quantity": 160 },
-                { "month": "Abril", "quantity": 180 },
-                { "month": "Maio", "quantity": 90 }
-              ]
+              "name": "Z Flip 5"
             }
+          ],
+          "Sales": [
+            { "month": "Janeiro", "Sales": 200 },
+            { "month": "Fevereiro", "Sales": 170 },
+            { "month": "Março", "Sales": 260 },
+            { "month": "Abril", "Sales": 180 },
+            { "month": "Maio", "Sales": 190 }
           ]
         },
         {
           "name": "Xiaomi",
           "products": [
             {
-              "name": "Xiaomi 12",
-              "sales": [
-                { "month": "Janeiro", "quantity": 150 },
-                { "month": "Fevereiro", "quantity": 160 },
-                { "month": "Março", "quantity": 140 },
-                { "month": "Abril", "quantity": 180 },
-                { "month": "Maio", "quantity": 200 }
-              ]
+              "name": "Xiaomi 12"
             },
             {
-              "name": "Redmi Note 12",
-              "sales": [
-                { "month": "Janeiro", "quantity": 160 },
-                { "month": "Fevereiro", "quantity": 180 },
-                { "month": "Março", "quantity": 150 },
-                { "month": "Abril", "quantity": 280 },
-                { "month": "Maio", "quantity": 210 }
-              ]
+              "name": "Redmi Note 12"
             },
             {
-              "name": "POCO M4 Pro",
-              "sales": [
-                { "month": "Janeiro", "quantity": 45 },
-                { "month": "Fevereiro", "quantity": 60 },
-                { "month": "Março", "quantity": 110 },
-                { "month": "Abril", "quantity": 160 },
-                { "month": "Maio", "quantity": 120 }
-              ]
+              "name": "POCO M4 Pro"
             }
+          ],
+          "Sales": [
+            { "month": "Janeiro", "Sales": 160 },
+            { "month": "Fevereiro", "Sales": 180 },
+            { "month": "Março", "Sales": 150 },
+            { "month": "Abril", "Sales": 280 },
+            { "month": "Maio", "Sales": 210 }
           ]
         }
       ]
@@ -117,105 +75,63 @@
           "name": "Sony",
           "products": [
             {
-              "name": "Sony WH-1000XM4",
-              "sales": [
-                { "month": "Janeiro", "quantity": 80 },
-                { "month": "Fevereiro", "quantity": 100 },
-                { "month": "Março", "quantity": 120 },
-                { "month": "Abril", "quantity": 90 },
-                { "month": "Maio", "quantity": 110 }
-              ]
+              "name": "Sony WH-1000XM4"
             },
             {
-              "name": "Sony WH-XB900N",
-              "sales": [
-                { "month": "Janeiro", "quantity": 50 },
-                { "month": "Fevereiro", "quantity": 60 },
-                { "month": "Março", "quantity": 70 },
-                { "month": "Abril", "quantity": 55 },
-                { "month": "Maio", "quantity": 65 }
-              ]
+              "name": "Sony WH-XB900N"
             },
             {
-              "name": "Sony WF-1000XM4",
-              "sales": [
-                { "month": "Janeiro", "quantity": 40 },
-                { "month": "Fevereiro", "quantity": 45 },
-                { "month": "Março", "quantity": 50 },
-                { "month": "Abril", "quantity": 35 },
-                { "month": "Maio", "quantity": 40 }
-              ]
+              "name": "Sony WF-1000XM4"
             }
+          ],
+          "Sales": [
+            { "month": "Janeiro", "Sales": 80 },
+            { "month": "Fevereiro", "Sales": 100 },
+            { "month": "Março", "Sales": 120 },
+            { "month": "Abril", "Sales": 90 },
+            { "month": "Maio", "Sales": 110 }
           ]
         },
         {
           "name": "Bose",
           "products": [
             {
-              "name": "Bose QuietComfort 35 II",
-              "sales": [
-                { "month": "Janeiro", "quantity": 60 },
-                { "month": "Fevereiro", "quantity": 80 },
-                { "month": "Março", "quantity": 70 },
-                { "month": "Abril", "quantity": 100 },
-                { "month": "Maio", "quantity": 120 }
-              ]
+              "name": "Bose QuietComfort 35 II"
             },
             {
-              "name": "Bose SoundLink II",
-              "sales": [
-                { "month": "Janeiro", "quantity": 40 },
-                { "month": "Fevereiro", "quantity": 50 },
-                { "month": "Março", "quantity": 45 },
-                { "month": "Abril", "quantity": 55 },
-                { "month": "Maio", "quantity": 60 }
-              ]
+              "name": "Bose SoundLink II"
             },
             {
-              "name": "Bose Noise Cancelling 700",
-              "sales": [
-                { "month": "Janeiro", "quantity": 30 },
-                { "month": "Fevereiro", "quantity": 35 },
-                { "month": "Março", "quantity": 40 },
-                { "month": "Abril", "quantity": 30 },
-                { "month": "Maio", "quantity": 35 }
-              ]
+              "name": "Bose Noise Cancelling 700"
             }
+          ],
+          "Sales": [
+            { "month": "Janeiro", "Sales": 60 },
+            { "month": "Fevereiro", "Sales": 80 },
+            { "month": "Março", "Sales": 70 },
+            { "month": "Abril", "Sales": 100 },
+            { "month": "Maio", "Sales": 120 }
           ]
         },
         {
           "name": "JBL",
           "products": [
             {
-              "name": "JBL Free X",
-              "sales": [
-                { "month": "Janeiro", "quantity": 40 },
-                { "month": "Fevereiro", "quantity": 50 },
-                { "month": "Março", "quantity": 45 },
-                { "month": "Abril", "quantity": 60 },
-                { "month": "Maio", "quantity": 70 }
-              ]
+              "name": "JBL Free X"
             },
             {
-              "name": "JBL Live 650BTNC",
-              "sales": [
-                { "month": "Janeiro", "quantity": 30 },
-                { "month": "Fevereiro", "quantity": 35 },
-                { "month": "Março", "quantity": 40 },
-                { "month": "Abril", "quantity": 55 },
-                { "month": "Maio", "quantity": 65 }
-              ]
+              "name": "JBL Live 650BTNC"
             },
             {
-              "name": "JBL E45BT",
-              "sales": [
-                { "month": "Janeiro", "quantity": 20 },
-                { "month": "Fevereiro", "quantity": 25 },
-                { "month": "Março", "quantity": 30 },
-                { "month": "Abril", "quantity": 40 },
-                { "month": "Maio", "quantity": 50 }
-              ]
+              "name": "JBL E45BT"
             }
+          ],
+          "Sales": [
+            { "month": "Janeiro", "Sales": 40 },
+            { "month": "Fevereiro", "Sales": 50 },
+            { "month": "Março", "Sales": 45 },
+            { "month": "Abril", "Sales": 60 },
+            { "month": "Maio", "Sales": 70 }
           ]
         }
       ]
@@ -227,105 +143,63 @@
           "name": "Dell",
           "products": [
             {
-              "name": "Dell XPS 13",
-              "sales": [
-                { "month": "Janeiro", "quantity": 50 },
-                { "month": "Fevereiro", "quantity": 60 },
-                { "month": "Março", "quantity": 70 },
-                { "month": "Abril", "quantity": 80 },
-                { "month": "Maio", "quantity": 90 }
-              ]
+              "name": "Dell XPS 13"
             },
             {
-              "name": "Dell Inspiron 15",
-              "sales": [
-                { "month": "Janeiro", "quantity": 30 },
-                { "month": "Fevereiro", "quantity": 40 },
-                { "month": "Março", "quantity": 50 },
-                { "month": "Abril", "quantity": 60 },
-                { "month": "Maio", "quantity": 70 }
-              ]
+              "name": "Dell Inspiron 15"
             },
             {
-              "name": "Dell Latitude 14",
-              "sales": [
-                { "month": "Janeiro", "quantity": 20 },
-                { "month": "Fevereiro", "quantity": 25 },
-                { "month": "Março", "quantity": 30 },
-                { "month": "Abril", "quantity": 35 },
-                { "month": "Maio", "quantity": 40 }
-              ]
+              "name": "Dell Latitude 14"
             }
+          ],
+          "Sales": [
+            { "month": "Janeiro", "Sales": 50 },
+            { "month": "Fevereiro", "Sales": 60 },
+            { "month": "Março", "Sales": 70 },
+            { "month": "Abril", "Sales": 80 },
+            { "month": "Maio", "Sales": 90 }
           ]
         },
         {
           "name": "HP",
           "products": [
             {
-              "name": "HP Spectre x360",
-              "sales": [
-                { "month": "Janeiro", "quantity": 40 },
-                { "month": "Fevereiro", "quantity": 50 },
-                { "month": "Março", "quantity": 60 },
-                { "month": "Abril", "quantity": 70 },
-                { "month": "Maio", "quantity": 80 }
-              ]
+              "name": "HP Spectre x360"
             },
             {
-              "name": "HP Envy 13",
-              "sales": [
-                { "month": "Janeiro", "quantity": 25 },
-                { "month": "Fevereiro", "quantity": 30 },
-                { "month": "Março", "quantity": 35 },
-                { "month": "Abril", "quantity": 40 },
-                { "month": "Maio", "quantity": 45 }
-              ]
+              "name": "HP Envy 13"
             },
             {
-              "name": "HP Pavilion 15",
-              "sales": [
-                { "month": "Janeiro", "quantity": 35 },
-                { "month": "Fevereiro", "quantity": 40 },
-                { "month": "Março", "quantity": 45 },
-                { "month": "Abril", "quantity": 50 },
-                { "month": "Maio", "quantity": 55 }
-              ]
+              "name": "HP Pavilion 15"
             }
+          ],
+          "Sales": [
+            { "month": "Janeiro", "Sales": 40 },
+            { "month": "Fevereiro", "Sales": 50 },
+            { "month": "Março", "Sales": 60 },
+            { "month": "Abril", "Sales": 70 },
+            { "month": "Maio", "Sales": 80 }
           ]
         },
         {
           "name": "Lenovo",
           "products": [
             {
-              "name": "Lenovo ThinkPad X1 Carbon",
-              "sales": [
-                { "month": "Janeiro", "quantity": 45 },
-                { "month": "Fevereiro", "quantity": 55 },
-                { "month": "Março", "quantity": 65 },
-                { "month": "Abril", "quantity": 75 },
-                { "month": "Maio", "quantity": 85 }
-              ]
+              "name": "Lenovo ThinkPad X1 Carbon"
             },
             {
-              "name": "Lenovo Legion Y540",
-              "sales": [
-                { "month": "Janeiro", "quantity": 30 },
-                { "month": "Fevereiro", "quantity": 35 },
-                { "month": "Março", "quantity": 40 },
-                { "month": "Abril", "quantity": 45 },
-                { "month": "Maio", "quantity": 50 }
-              ]
+              "name": "Lenovo Legion Y540"
             },
             {
-              "name": "Lenovo Ideapad S340",
-              "sales": [
-                { "month": "Janeiro", "quantity": 20 },
-                { "month": "Fevereiro", "quantity": 25 },
-                { "month": "Março", "quantity": 30 },
-                { "month": "Abril", "quantity": 35 },
-                { "month": "Maio", "quantity": 40 }
-              ]
+              "name": "Lenovo Ideapad S340"
             }
+          ],
+          "Sales": [
+            { "month": "Janeiro", "Sales": 45 },
+            { "month": "Fevereiro", "Sales": 55 },
+            { "month": "Março", "Sales": 65 },
+            { "month": "Abril", "Sales": 75 },
+            { "month": "Maio", "Sales": 85 }
           ]
         }        
       ]

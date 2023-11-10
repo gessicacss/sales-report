@@ -1,3 +1,5 @@
+import { ContainerSelect, Label } from "./styles";
+
 /* eslint-disable react/prop-types */
 export default function Products({
   data,
@@ -7,9 +9,13 @@ export default function Products({
   selectedBrand,
 }) {
   return (
-    <label>
-      Products:
-      <select value={selectedProduct} onChange={handleProductChange}>
+    <ContainerSelect>
+      <Label htmlFor="products">Products:</Label>
+      <select
+        id="products"
+        value={selectedProduct}
+        onChange={handleProductChange}
+      >
         {data.category
           .find((category) => category.name === selectedCategory)
           ?.brand.find((brand) => brand.name === selectedBrand)
@@ -19,6 +25,6 @@ export default function Products({
             </option>
           ))}
       </select>
-    </label>
+    </ContainerSelect>
   );
 }
