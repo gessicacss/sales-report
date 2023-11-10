@@ -1,4 +1,4 @@
-import { ContainerSelect, Label } from "./styles";
+import { ContainerSelect, Label, Select } from "./styles";
 
 /* eslint-disable react/prop-types */
 export default function Categories({
@@ -9,13 +9,13 @@ export default function Categories({
   return (
     <ContainerSelect>
       <Label htmlFor="category">Categories:</Label>
-      <select id="category" value={selectedCategory} onChange={handleCategoryChange}>
+      <Select id="category" value={selectedCategory} onChange={handleCategoryChange}>
         {data.category.map((category) => (
           <option key={category.name} value={category.name}>
             {category.name}
           </option>
         ))}
-      </select>
+      </Select>
     </ContainerSelect>
   );
 }

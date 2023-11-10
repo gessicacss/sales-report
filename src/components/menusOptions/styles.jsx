@@ -11,3 +11,7 @@ export const Label = styled.label`
   color: #2c2c2c;
   font-weight: 500;
 `;
+
+export const Select = styled.select`
+  border-radius:5px;
+`

@@ -1,4 +1,4 @@
-import { ContainerSelect, Label } from "./styles";
+import { ContainerSelect, Label, Select } from "./styles";
 
 /* eslint-disable react/prop-types */
 export default function Brands({
@@ -10,7 +10,7 @@ export default function Brands({
   return (
     <ContainerSelect>
       <Label htmlFor="brands">Brands:</Label>
-      <select id="brands" value={selectedBrand} onChange={handleBrandChange}>
+      <Select id="brands" value={selectedBrand} onChange={handleBrandChange}>
         {data.category
           .find((category) => category.name === selectedCategory)
           ?.brand.map((brand) => (
@@ -18,7 +18,7 @@ export default function Brands({
               {brand.name}
             </option>
           ))}
-      </select>
+      </Select>
     </ContainerSelect>
   );
 }

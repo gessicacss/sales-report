@@ -1,4 +1,4 @@
-import { ContainerSelect, Label } from "./styles";
+import { ContainerSelect, Label, Select } from "./styles";
 
 /* eslint-disable react/prop-types */
 export default function Products({
@@ -11,7 +11,7 @@ export default function Products({
   return (
     <ContainerSelect>
       <Label htmlFor="products">Products:</Label>
-      <select
+      <Select
         id="products"
         value={selectedProduct}
         onChange={handleProductChange}
@@ -24,7 +24,7 @@ export default function Products({
               {product.name}
             </option>
           ))}
-      </select>
+      </Select>
     </ContainerSelect>
   );
 }
