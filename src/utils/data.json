@@ -42,7 +42,7 @@
           "name": "Samsung",
           "products": [
             {
-              "name": "A14",
+              "name": "Galaxy A14",
               "sales": [
                 { "month": "Janeiro", "quantity": 50 },
                 { "month": "Fevereiro", "quantity": 70 },
@@ -52,7 +52,7 @@
               ]
             },
             {
-              "name": "S23",
+              "name": "Galaxy S23",
               "sales": [
                 { "month": "Janeiro", "quantity": 30 },
                 { "month": "Fevereiro", "quantity": 50 },
@@ -125,6 +125,26 @@
                 { "month": "Abril", "quantity": 90 },
                 { "month": "Maio", "quantity": 110 }
               ]
+            },
+            {
+              "name": "Sony WH-XB900N",
+              "sales": [
+                { "month": "Janeiro", "quantity": 50 },
+                { "month": "Fevereiro", "quantity": 60 },
+                { "month": "Março", "quantity": 70 },
+                { "month": "Abril", "quantity": 55 },
+                { "month": "Maio", "quantity": 65 }
+              ]
+            },
+            {
+              "name": "Sony WF-1000XM4",
+              "sales": [
+                { "month": "Janeiro", "quantity": 40 },
+                { "month": "Fevereiro", "quantity": 45 },
+                { "month": "Março", "quantity": 50 },
+                { "month": "Abril", "quantity": 35 },
+                { "month": "Maio", "quantity": 40 }
+              ]
             }
           ]
         },
@@ -139,6 +159,61 @@
                 { "month": "Março", "quantity": 70 },
                 { "month": "Abril", "quantity": 100 },
                 { "month": "Maio", "quantity": 120 }
+              ]
+            },
+            {
+              "name": "Bose SoundLink II",
+              "sales": [
+                { "month": "Janeiro", "quantity": 40 },
+                { "month": "Fevereiro", "quantity": 50 },
+                { "month": "Março", "quantity": 45 },
+                { "month": "Abril", "quantity": 55 },
+                { "month": "Maio", "quantity": 60 }
+              ]
+            },
+            {
+              "name": "Bose Noise Cancelling 700",
+              "sales": [
+                { "month": "Janeiro", "quantity": 30 },
+                { "month": "Fevereiro", "quantity": 35 },
+                { "month": "Março", "quantity": 40 },
+                { "month": "Abril", "quantity": 30 },
+                { "month": "Maio", "quantity": 35 }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JBL",
+          "products": [
+            {
+              "name": "JBL Free X",
+              "sales": [
+                { "month": "Janeiro", "quantity": 40 },
+                { "month": "Fevereiro", "quantity": 50 },
+                { "month": "Março", "quantity": 45 },
+                { "month": "Abril", "quantity": 60 },
+                { "month": "Maio", "quantity": 70 }
+              ]
+            },
+            {
+              "name": "JBL Live 650BTNC",
+              "sales": [
+                { "month": "Janeiro", "quantity": 30 },
+                { "month": "Fevereiro", "quantity": 35 },
+                { "month": "Março", "quantity": 40 },
+                { "month": "Abril", "quantity": 55 },
+                { "month": "Maio", "quantity": 65 }
+              ]
+            },
+            {
+              "name": "JBL E45BT",
+              "sales": [
+                { "month": "Janeiro", "quantity": 20 },
+                { "month": "Fevereiro", "quantity": 25 },
+                { "month": "Março", "quantity": 30 },
+                { "month": "Abril", "quantity": 40 },
+                { "month": "Maio", "quantity": 50 }
               ]
             }
           ]
@@ -217,7 +292,42 @@
               ]
             }
           ]
-        }
+        },
+        {
+          "name": "Lenovo",
+          "products": [
+            {
+              "name": "Lenovo ThinkPad X1 Carbon",
+              "sales": [
+                { "month": "Janeiro", "quantity": 45 },
+                { "month": "Fevereiro", "quantity": 55 },
+                { "month": "Março", "quantity": 65 },
+                { "month": "Abril", "quantity": 75 },
+                { "month": "Maio", "quantity": 85 }
+              ]
+            },
+            {
+              "name": "Lenovo Legion Y540",
+              "sales": [
+                { "month": "Janeiro", "quantity": 30 },
+                { "month": "Fevereiro", "quantity": 35 },
+                { "month": "Março", "quantity": 40 },
+                { "month": "Abril", "quantity": 45 },
+                { "month": "Maio", "quantity": 50 }
+              ]
+            },
+            {
+              "name": "Lenovo Ideapad S340",
+              "sales": [
+                { "month": "Janeiro", "quantity": 20 },
+                { "month": "Fevereiro", "quantity": 25 },
+                { "month": "Março", "quantity": 30 },
+                { "month": "Abril", "quantity": 35 },
+                { "month": "Maio", "quantity": 40 }
+              ]
+            }
+          ]
+        }        
       ]
     }
   ]
