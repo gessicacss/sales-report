@@ -12,6 +12,10 @@ import {
 import { ChartsContainer } from "./styles";
 
 export default function GraphicCharts({sales}) {
+  const higherSale = Math.max(...sales.map(sale => sale.Sales));
+  const topPadding = higherSale * 0.10;
+  const maxY = Math.ceil(higherSale + topPadding);
+
   return (
     <ChartsContainer>
       <ResponsiveContainer width="100%" height={500}>
@@ -28,7 +32,7 @@ export default function GraphicCharts({sales}) {
           <XAxis dataKey="month" />
           <YAxis
             label={{ value: "Sales", angle: -90, position: "insideLeft" }}
-            domain={[0, 300]}
+            domain={[0, maxY]}
           />
           <Tooltip />
           <Legend iconType="circle" />
