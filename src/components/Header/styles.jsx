@@ -1,33 +1,13 @@
 import styled from "styled-components";
-import { BsFillPersonFill } from "react-icons/bs";
-import { FaBars } from "react-icons/fa";
 
-export default function Header() {
-  return (
-    <HeaderContainer>
-      <MobileMenu>
-        <FaBars />
-      </MobileMenu>
-      <LeftSide>
-        <h4>Menu</h4>
-        <h3>
-          <BsFillPersonFill color="red" />
-          Username
-        </h3>
-      </LeftSide>
-      <Title>Sales Report</Title>
-    </HeaderContainer>
-  );
-}
-
-const MobileMenu = styled.div`
+export const MobileMenu = styled.div`
   cursor: pointer;
   @media (min-width: 768px) {
     display: none;
   }
 `;
 
-const HeaderContainer = styled.header`
+export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,10 +19,11 @@ const HeaderContainer = styled.header`
   font-family: "Roboto", sans-serif;
 `;
 
-const LeftSide = styled.div`
+export const LeftSide = styled.div`
   display: flex;
   gap: 30px;
   justify-content: space-between;
+  cursor: pointer;
   h3 {
     display: flex;
     align-items: center;
@@ -53,8 +34,9 @@ const LeftSide = styled.div`
   }
 `;
 
-const Title = styled.h1`
+export const Title = styled.h1`
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 32px;
+  cursor: pointer;
 `;

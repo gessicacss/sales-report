@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import styled from "styled-components";
 import {
   Bar,
   BarChart,
@@ -10,6 +9,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { ChartsContainer } from "./styles";
 
 export default function GraphicCharts({sales}) {
   return (
@@ -38,12 +38,3 @@ export default function GraphicCharts({sales}) {
     </ChartsContainer>
   );
 }
-
-
-const ChartsContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px auto;
-  padding:50px;
-`;

@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
-import styled from "styled-components";
-import data from "../utils/data.json";
-import Products from "./menusOptions/Products";
-import Categories from "./menusOptions/Categories";
-import Brands from "./menusOptions/Brands";
+import data from "../../utils/data.json";
+import Products from "../menusOptions/Products";
+import Categories from "../menusOptions/Categories";
+import Brands from "../menusOptions/Brands";
+import { MenuContainer } from "./styles";
 
 export default function Menu({
   selectedCategory,
@@ -61,13 +61,3 @@ export default function Menu({
     </MenuContainer>
   );
 }
-
-const MenuContainer = styled.div`
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  @media (max-width: 530px) {
-    flex-direction: column;
-    gap: 20px;
-  }
-`;

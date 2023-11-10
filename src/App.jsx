@@ -1,8 +1,8 @@
 import { useState } from "react";
 import data from "./utils/data.json";
-import Header from "./components/Header";
-import Menu from "./components/Menu";
-import Charts from "./components/Charts";
+import Header from "./components/Header/Header";
+import Charts from "./components/Charts/Charts";
+import Menu from "./components/Menu/Menu";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(

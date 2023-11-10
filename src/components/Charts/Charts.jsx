@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
-import styled from "styled-components";
-import data from "../utils/data.json";
+import data from "../../utils/data.json";
 import GraphicCharts from "./GraphicCharts";
+import { Text } from "./styles";
 
 export default function Charts({ selectedCategory, selectedBrand }) {
   const selectedCategoryObj = data.category.find(
@@ -18,14 +18,3 @@ export default function Charts({ selectedCategory, selectedBrand }) {
     </>
   );
 }
-
-const Text = styled.h2`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-  font-weight: 700;
-  font-family: 'Inter', sans-serif;
-  font-size:20px;
-  text-align: center;
-`
