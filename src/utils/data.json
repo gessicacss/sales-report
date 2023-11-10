@@ -17,11 +17,11 @@
             }
           ],
           "Sales": [
-            { "month": "Janeiro", "Sales": 100 },
-            { "month": "Fevereiro", "Sales": 150 },
-            { "month": "Março", "Sales": 200 },
-            { "month": "Abril", "Sales": 120 },
-            { "month": "Maio", "Sales": 180 }
+            { "month": "January", "Sales": 100 },
+            { "month": "February", "Sales": 150 },
+            { "month": "March", "Sales": 200 },
+            { "month": "April", "Sales": 120 },
+            { "month": "May", "Sales": 180 }
           ]
         },
         {
@@ -38,11 +38,11 @@
             }
           ],
           "Sales": [
-            { "month": "Janeiro", "Sales": 200 },
-            { "month": "Fevereiro", "Sales": 170 },
-            { "month": "Março", "Sales": 260 },
-            { "month": "Abril", "Sales": 180 },
-            { "month": "Maio", "Sales": 190 }
+            { "month": "January", "Sales": 200 },
+            { "month": "February", "Sales": 170 },
+            { "month": "March", "Sales": 260 },
+            { "month": "April", "Sales": 180 },
+            { "month": "May", "Sales": 190 }
           ]
         },
         {
@@ -59,11 +59,11 @@
             }
           ],
           "Sales": [
-            { "month": "Janeiro", "Sales": 160 },
-            { "month": "Fevereiro", "Sales": 180 },
-            { "month": "Março", "Sales": 150 },
-            { "month": "Abril", "Sales": 280 },
-            { "month": "Maio", "Sales": 210 }
+            { "month": "January", "Sales": 160 },
+            { "month": "February", "Sales": 180 },
+            { "month": "March", "Sales": 150 },
+            { "month": "April", "Sales": 280 },
+            { "month": "May", "Sales": 210 }
           ]
         }
       ]
@@ -85,11 +85,11 @@
             }
           ],
           "Sales": [
-            { "month": "Janeiro", "Sales": 80 },
-            { "month": "Fevereiro", "Sales": 100 },
-            { "month": "Março", "Sales": 120 },
-            { "month": "Abril", "Sales": 90 },
-            { "month": "Maio", "Sales": 110 }
+            { "month": "January", "Sales": 80 },
+            { "month": "February", "Sales": 100 },
+            { "month": "March", "Sales": 120 },
+            { "month": "April", "Sales": 90 },
+            { "month": "May", "Sales": 110 }
           ]
         },
         {
@@ -106,11 +106,11 @@
             }
           ],
           "Sales": [
-            { "month": "Janeiro", "Sales": 60 },
-            { "month": "Fevereiro", "Sales": 80 },
-            { "month": "Março", "Sales": 70 },
-            { "month": "Abril", "Sales": 100 },
-            { "month": "Maio", "Sales": 120 }
+            { "month": "January", "Sales": 60 },
+            { "month": "February", "Sales": 80 },
+            { "month": "March", "Sales": 70 },
+            { "month": "April", "Sales": 100 },
+            { "month": "May", "Sales": 120 }
           ]
         },
         {
@@ -127,11 +127,11 @@
             }
           ],
           "Sales": [
-            { "month": "Janeiro", "Sales": 40 },
-            { "month": "Fevereiro", "Sales": 50 },
-            { "month": "Março", "Sales": 45 },
-            { "month": "Abril", "Sales": 60 },
-            { "month": "Maio", "Sales": 70 }
+            { "month": "January", "Sales": 40 },
+            { "month": "February", "Sales": 50 },
+            { "month": "March", "Sales": 45 },
+            { "month": "April", "Sales": 60 },
+            { "month": "May", "Sales": 70 }
           ]
         }
       ]
@@ -153,11 +153,11 @@
             }
           ],
           "Sales": [
-            { "month": "Janeiro", "Sales": 50 },
-            { "month": "Fevereiro", "Sales": 60 },
-            { "month": "Março", "Sales": 70 },
-            { "month": "Abril", "Sales": 80 },
-            { "month": "Maio", "Sales": 90 }
+            { "month": "January", "Sales": 50 },
+            { "month": "February", "Sales": 60 },
+            { "month": "March", "Sales": 70 },
+            { "month": "April", "Sales": 80 },
+            { "month": "May", "Sales": 90 }
           ]
         },
         {
@@ -174,11 +174,11 @@
             }
           ],
           "Sales": [
-            { "month": "Janeiro", "Sales": 40 },
-            { "month": "Fevereiro", "Sales": 50 },
-            { "month": "Março", "Sales": 60 },
-            { "month": "Abril", "Sales": 70 },
-            { "month": "Maio", "Sales": 80 }
+            { "month": "January", "Sales": 40 },
+            { "month": "February", "Sales": 50 },
+            { "month": "March", "Sales": 60 },
+            { "month": "April", "Sales": 70 },
+            { "month": "May", "Sales": 80 }
           ]
         },
         {
@@ -195,11 +195,11 @@
             }
           ],
           "Sales": [
-            { "month": "Janeiro", "Sales": 45 },
-            { "month": "Fevereiro", "Sales": 55 },
-            { "month": "Março", "Sales": 65 },
-            { "month": "Abril", "Sales": 75 },
-            { "month": "Maio", "Sales": 85 }
+            { "month": "January", "Sales": 45 },
+            { "month": "February", "Sales": 55 },
+            { "month": "March", "Sales": 65 },
+            { "month": "April", "Sales": 75 },
+            { "month": "May", "Sales": 85 }
           ]
         }        
       ]
