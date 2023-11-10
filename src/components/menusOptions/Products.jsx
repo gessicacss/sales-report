@@ -8,7 +8,7 @@ export default function Products({
 }) {
   return (
     <label>
-      Produto:
+      Products:
       <select value={selectedProduct} onChange={handleProductChange}>
         {data.category
           .find((category) => category.name === selectedCategory)

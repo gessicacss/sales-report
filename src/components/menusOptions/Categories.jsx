@@ -6,7 +6,7 @@ export default function Categories({
 }) {
   return (
     <label>
-      Categoria:
+      Categories:
       <select value={selectedCategory} onChange={handleCategoryChange}>
         {data.category.map((category) => (
           <option key={category.name} value={category.name}>

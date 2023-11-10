@@ -7,7 +7,7 @@ export default function Brands({
 }) {
   return (
     <label>
-      Marca:
+      Brands:
       <select value={selectedBrand} onChange={handleBrandChange}>
         {data.category
           .find((category) => category.name === selectedCategory)
